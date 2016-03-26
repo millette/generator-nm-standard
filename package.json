@@ -3,7 +3,7 @@
   "version": "3.0.0",
   "description": "Scaffold out a node module",
   "license": "MIT",
-  "repository": "millette/generator-nm-standard",
+  "repository": "https://gitlab.com/millette/generator-nm-standard.git",
   "author": {
     "name": "Robin Millette",
     "email": "robin@millette.info",
