@@ -1,13 +1,13 @@
 {
-  "name": "generator-nm",
-  "version": "2.5.0",
+  "name": "generator-nm-standard",
+  "version": "3.0.0",
   "description": "Scaffold out a node module",
   "license": "MIT",
-  "repository": "sindresorhus/generator-nm",
+  "repository": "millette/generator-nm-standard",
   "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
+    "name": "Robin Millette",
+    "email": "robin@millette.info",
+    "url": "robin.millette.info"
   },
   "engines": {
     "node": ">=4"
@@ -28,8 +28,7 @@
     "module",
     "node_module",
     "node-module",
-    "init",
-    "sindre"
+    "init"
   ],
   "dependencies": {
     "humanize-url": "^1.0.1",

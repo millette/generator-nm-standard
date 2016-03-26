@@ -1,10 +1,10 @@
-# generator-nm [![Build Status](https://travis-ci.org/sindresorhus/generator-nm.svg?branch=master)](https://travis-ci.org/sindresorhus/generator-nm)
+# generator-nm-standard
 
-> Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate)
+> Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate) - without the semicolons ;-)
 
 Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
 
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
+Based on generator-nm by [Sindre Sorhus](https://www.npmjs.com/~sindresorhus) but where xo is replaced by the [standard](https://github.com/feross/standard) linter.
 
 ![](screenshot.png)
 
@@ -12,7 +12,7 @@ This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
 ## Install
 
 ```
-$ npm install --global generator-nm
+$ npm install --global generator-nm-standard
 ```
 
 
@@ -21,7 +21,7 @@ $ npm install --global generator-nm
 With [yo](https://github.com/yeoman/yo):
 
 ```
-$ yo nm
+$ yo nm-standard
 ```
 
 
@@ -31,5 +31,6 @@ Use [chalk](https://github.com/sindresorhus/chalk) if you want colors in your CL
 
 
 ## License
+Based on MIT © [Sindre Sorhus' word](http://sindresorhus.com).
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Robin Millette](http://robin.millette.info)
