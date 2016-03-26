@@ -1,6 +1,7 @@
-import test from 'ava';
-import fn from './';
+'use strict'
+import test from 'ava'
+import fn from './'
 
-test('title', t => {
-	t.is(fn('unicorns'), 'unicorns & rainbows');
-});
+test('title', (t) => {
+  t.is(fn('unicorns'), 'unicorns & rainbows')
+})

@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "standard && ava"
   },
   "files": [
     "app"
@@ -40,15 +40,16 @@
   },
   "devDependencies": {
     "ava": "*",
+    "babel-eslint": "^6.0.0",
     "pify": "^2.2.0",
-    "xo": "*",
+    "standard": "^6.0.8",
     "yeoman-assert": "^2.0.0",
     "yeoman-test": "^1.0.0"
   },
-  "xo": {
-    "esnext": true,
-    "ignores": [
-      "app/templates/**"
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "app/templates/"
     ]
   }
 }
