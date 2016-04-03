@@ -1,5 +1,5 @@
 # <%= moduleName %>
-> <%= description %>
+> <%- description %>
 
 ## Install
 ```
@@ -51,4 +51,4 @@ $ <%= moduleName %> --help
 
 
 ## License
-AGPL-v3 © [<%= name %>](<%= website %>)
+AGPL-v3 © [<%- name %>](<%= website %>)

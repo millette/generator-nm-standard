@@ -1,11 +1,11 @@
 {
   "name": "<%= moduleName %>",
   "version": "0.0.0",
-  "description": "<%= description %>",
+  "description": "<%- description %>",
   "license": "AGPL-3.0",
   "repository": "<%= githubUsername %>/<%= moduleName %>",
   "author": {
-    "name": "<%= name %>",
+    "name": "<%- name %>",
     "email": "<%= email %>",
     "url": "<%= humanizedWebsite %>"
   },<% if (cli) { %>
