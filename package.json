@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "standard && ava"
+    "test": "standard && nyc ava"
   },
   "files": [
     "app"
@@ -28,6 +28,7 @@
     "module",
     "node_module",
     "node-module",
+    "standard",
     "init"
   ],
   "dependencies": {
@@ -40,6 +41,7 @@
   "devDependencies": {
     "ava": "^0.12.0",
     "babel-eslint": "^6.0.0",
+    "nyc": "^6.1.1",
     "pify": "^2.2.0",
     "standard": "^6.0.8",
     "yeoman-assert": "^2.0.0",

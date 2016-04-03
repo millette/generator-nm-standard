@@ -1,3 +1,6 @@
+/*eslint arrow-parens: [2, "as-needed"]*/
+'use strict'
+
 import path from 'path'
 import test from 'ava'
 import helpers from 'yeoman-test'
@@ -6,12 +9,12 @@ import pify from 'pify'
 
 let generator
 
-test.beforeEach(async () => { // eslint-disable-line
+test.beforeEach(async () => { // eslint-disable-line arrow-parens
   await pify(helpers.testDirectory)(path.join(__dirname, 'temp'))
-  generator = helpers.createGenerator('nm:app', ['../app'], null, {skipInstall: true})
+  generator = helpers.createGenerator('nm-standard:app', ['../app'], null, {skipInstall: true})
 })
 
-test.serial('generates expected files', async () => { // eslint-disable-line
+test.serial('generates expected files', async () => { // eslint-disable-line arrow-parens
   helpers.mockPrompt(generator, {
     moduleName: 'test',
     githubUsername: 'test',
@@ -28,7 +31,7 @@ test.serial('generates expected files', async () => { // eslint-disable-line
     '.gitignore',
     '.travis.yml',
     'index.js',
-    'license',
+    'LICENSE.md',
     'package.json',
     'readme.md',
     'test.js'
@@ -37,7 +40,7 @@ test.serial('generates expected files', async () => { // eslint-disable-line
   assert.noFile('cli.js')
 })
 
-test.serial('CLI option', async () => { // eslint-disable-line
+test.serial('CLI option', async () => { // eslint-disable-line arrow-parens
   helpers.mockPrompt(generator, {
     moduleName: 'test',
     githubUsername: 'test',
