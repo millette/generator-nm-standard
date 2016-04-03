@@ -1,5 +1,5 @@
 # <%= moduleName %>
-> My <%= superb %> module
+> <%= description %>
 
 ## Install
 ```

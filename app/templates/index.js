@@ -1,5 +1,5 @@
 /*
-RoLLodeQc GitHub utilities
+<%= description %>
 
 Copyright 2016 <%= name %> <<%= email %>> (<%= humanizedWebsite %>)
 

@@ -1,7 +1,7 @@
 {
   "name": "<%= moduleName %>",
   "version": "0.0.0",
-  "description": "My <%= superb %> module",
+  "description": "<%= description %>",
   "license": "AGPL-3.0",
   "repository": "<%= githubUsername %>/<%= moduleName %>",
   "author": {

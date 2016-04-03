@@ -1,5 +1,4 @@
 'use strict'
-const superb = require('superb')
 const normalizeUrl = require('normalize-url')
 const humanizeUrl = require('humanize-url')
 const yeoman = require('yeoman-generator')
@@ -15,6 +14,10 @@ module.exports = yeoman.Base.extend({
       message: 'What do you want to name your module?',
       default: this.appname.replace(/\s/g, '-'),
       filter: (x) => _s.slugify(x)
+    }, {
+      name: 'Description',
+      message: 'What is the description of your module?',
+      validate: (x) => x.length > 0 ? true : 'You have to provide a description'
     }, {
       name: 'githubUsername',
       message: 'What is your GitHub username?',
@@ -40,7 +43,7 @@ module.exports = yeoman.Base.extend({
         email: self.user.git.email(),
         website: props.website,
         humanizedWebsite: humanizeUrl(props.website),
-        superb: superb(),
+        description: props.description,
         cli: props.cli
       }
 
