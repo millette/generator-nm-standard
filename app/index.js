@@ -15,7 +15,7 @@ module.exports = yeoman.Base.extend({
       default: this.appname.replace(/\s/g, '-'),
       filter: (x) => _s.slugify(x)
     }, {
-      name: 'Description',
+      name: 'description',
       message: 'What is the description of your module?',
       validate: (x) => x.length > 0 ? true : 'You have to provide a description'
     }, {
