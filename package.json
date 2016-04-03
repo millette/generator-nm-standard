@@ -1,13 +1,13 @@
 {
   "name": "generator-nm-standard",
-  "version": "3.1.5",
+  "version": "3.1.6",
   "description": "Scaffold out a node module",
   "license": "MIT",
   "repository": "https://github.com/millette/generator-nm-standard.git",
   "author": {
     "name": "Robin Millette",
     "email": "robin@millette.info",
-    "url": "robin.millette.info"
+    "url": "http://robin.millette.info/"
   },
   "engines": {
     "node": ">=4"
@@ -32,7 +32,6 @@
     "init"
   ],
   "dependencies": {
-    "humanize-url": "^1.0.1",
     "normalize-url": "^1.2.0",
     "underscore.string": "^3.0.3",
     "yeoman-generator": "^0.22.1"

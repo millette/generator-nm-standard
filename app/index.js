@@ -1,6 +1,5 @@
 'use strict'
 const normalizeUrl = require('normalize-url')
-const humanizeUrl = require('humanize-url')
 const yeoman = require('yeoman-generator')
 const _s = require('underscore.string')
 
@@ -42,7 +41,6 @@ module.exports = yeoman.Base.extend({
         name: self.user.git.name(),
         email: self.user.git.email(),
         website: props.website,
-        humanizedWebsite: humanizeUrl(props.website),
         description: props.description,
         cli: props.cli
       }

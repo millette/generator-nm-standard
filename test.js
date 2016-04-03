@@ -18,7 +18,8 @@ test.serial('generates expected files', async () => { // eslint-disable-line arr
   helpers.mockPrompt(generator, {
     moduleName: 'test',
     githubUsername: 'test',
-    website: 'test.com',
+    website: 'http://test.com',
+    description: "I'll do what's on the tin.",
     cli: false
   })
 
@@ -44,7 +45,8 @@ test.serial('CLI option', async () => { // eslint-disable-line arrow-parens
   helpers.mockPrompt(generator, {
     moduleName: 'test',
     githubUsername: 'test',
-    website: 'test.com',
+    website: 'http://test.com',
+    description: "I'll do what's on the tin.",
     cli: true
   })
 
