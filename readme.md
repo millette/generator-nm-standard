@@ -1,4 +1,4 @@
-# generator-nm-standard
+# generator-nm-standard [![Build Status](https://travis-ci.org/millette/generator-nm-standard.svg?branch=master)](https://travis-ci.org/millette/generator-nm-standard)
 
 > Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate) - without the semicolons ;-)
 
