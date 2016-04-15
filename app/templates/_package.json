@@ -14,7 +14,8 @@
     "node": ">=4.3.1"
   },
   "scripts": {
-    "test": "standard && nyc ava"
+    "test": "standard && nyc ava",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "files": [
     "index.js"<% if (cli) { %>,
@@ -31,6 +32,7 @@
   "devDependencies": {
     "ava": "^0.12.0",
     "babel-eslint": "^6.0.0",
+    "coveralls": "^2.11.9",
     "nyc": "^6.1.1",
     "standard": "^6.0.8"
   },
