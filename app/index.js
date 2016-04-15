@@ -8,32 +8,37 @@ module.exports = yeoman.Base.extend({
     const cb = this.async()
     const self = this
 
-    this.prompt([{
-      name: 'moduleName',
-      message: 'What do you want to name your module?',
-      default: this.appname.replace(/\s/g, '-'),
-      filter: (x) => _s.slugify(x)
-    }, {
-      name: 'description',
-      message: 'What is the description of your module?',
-      validate: (x) => x.length > 0 ? true : 'You have to provide a description'
-    }, {
-      name: 'githubUsername',
-      message: 'What is your GitHub username?',
-      store: true,
-      validate: (x) => x.length > 0 ? true : 'You have to provide a username'
-    }, {
-      name: 'website',
-      message: 'What is the URL of your website?',
-      store: true,
-      validate: (x) => x.length > 0 ? true : 'You have to provide a website URL',
-      filter: (x) => normalizeUrl(x)
-    }, {
-      name: 'cli',
-      message: 'Do you need a CLI?',
-      type: 'confirm',
-      default: false
-    }], (props) => {
+    /* istanbul ignore next */
+    const prompter = [
+      {
+        name: 'moduleName',
+        message: 'What do you want to name your module?',
+        default: this.appname.replace(/\s/g, '-'),
+        filter: (x) => _s.slugify(x)
+      }, {
+        name: 'description',
+        message: 'What is the description of your module?',
+        validate: (x) => x.length > 0 ? true : 'You have to provide a description'
+      }, {
+        name: 'githubUsername',
+        message: 'What is your GitHub username?',
+        store: true,
+        validate: (x) => x.length > 0 ? true : 'You have to provide a username'
+      }, {
+        name: 'website',
+        message: 'What is the URL of your website?',
+        store: true,
+        validate: (x) => x.length > 0 ? true : 'You have to provide a website URL',
+        filter: (x) => normalizeUrl(x)
+      }, {
+        name: 'cli',
+        message: 'Do you need a CLI?',
+        type: 'confirm',
+        default: false
+      }
+    ]
+
+    this.prompt(prompter, (props) => {
       const tpl = {
         moduleName: props.moduleName,
         camelModuleName: _s.camelize(props.moduleName),
