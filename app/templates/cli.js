@@ -20,10 +20,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 'use strict'
-var meow = require('meow')
-var <%= camelModuleName %> = require('./')
+const meow = require('meow')
+const <%= camelModuleName %> = require('./')
 
-var cli = meow([
+const cli = meow([
   'Usage',
   '  $ <%= moduleName %> [input]',
   '',
