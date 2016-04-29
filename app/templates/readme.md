@@ -1,4 +1,7 @@
-# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>) [![Coverage Status](https://coveralls.io/repos/github/<%= githubUsername %>/<%= moduleName %>/badge.svg?branch=master)](https://coveralls.io/github/<%= githubUsername %>/<%= moduleName %>?branch=master)
+# <%= moduleName %>
+[![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+[![Coverage Status](https://coveralls.io/repos/github/<%= githubUsername %>/<%= moduleName %>/badge.svg?branch=master)](https://coveralls.io/github/<%= githubUsername %>/<%= moduleName %>?branch=master)
+[![Dependency Status](https://gemnasium.com/badges/github.com/<%= githubUsername %>/<%= moduleName %>.svg)](https://gemnasium.com/github.com/<%= githubUsername %>/<%= moduleName %>)
 > <%- description %>
 
 ## Install

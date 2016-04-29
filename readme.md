@@ -1,4 +1,8 @@
-# generator-nm-standard [![Build Status](https://travis-ci.org/millette/generator-nm-standard.svg?branch=master)](https://travis-ci.org/millette/generator-nm-standard) [![Coverage Status](https://coveralls.io/repos/github/millette/generator-nm-standard/badge.svg?branch=master)](https://coveralls.io/github/millette/generator-nm-standard?branch=master)
+# generator-nm-standard
+[![Build Status](https://travis-ci.org/millette/generator-nm-standard.svg?branch=master)](https://travis-ci.org/millette/generator-nm-standard)
+[![Coverage Status](https://coveralls.io/repos/github/millette/generator-nm-standard/badge.svg?branch=master)](https://coveralls.io/github/millette/generator-nm-standard?branch=master)
+[![Dependency Status](https://gemnasium.com/badges/github.com/millette/generator-nm-standard.svg)](https://gemnasium.com/github.com/millette/generator-nm-standard)
+
 > Scaffold out a [node module](https://github.com/sindresorhus/node-module-boilerplate), with standard code style
 
 Optionally with a [CLI](http://en.wikipedia.org/wiki/Command-line_interface).
