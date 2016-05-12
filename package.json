@@ -33,19 +33,19 @@
     "init"
   ],
   "dependencies": {
-    "normalize-url": "^1.2.0",
-    "underscore.string": "^3.0.3",
-    "yeoman-generator": "^0.22.1"
+    "normalize-url": "^1.5.2",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^0.23.3"
   },
   "devDependencies": {
-    "ava": "^0.12.0",
-    "babel-eslint": "^6.0.0",
+    "ava": "^0.14.0",
+    "babel-eslint": "^6.0.4",
     "coveralls": "^2.11.9",
-    "nyc": "^6.1.1",
-    "pify": "^2.2.0",
-    "standard": "^6.0.8",
-    "yeoman-assert": "^2.0.0",
-    "yeoman-test": "^1.0.0"
+    "nyc": "^6.4.4",
+    "pify": "^2.3.0",
+    "standard": "^7.0.1",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.4.0"
   },
   "standard": {
     "parser": "babel-eslint",
