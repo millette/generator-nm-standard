@@ -35,7 +35,7 @@
   "dependencies": {
     "normalize-url": "^1.5.2",
     "underscore.string": "^3.3.4",
-    "yeoman-generator": "^0.23.3"
+    "yeoman-generator": "^0.22.6"
   },
   "devDependencies": {
     "ava": "^0.14.0",
