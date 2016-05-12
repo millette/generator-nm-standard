@@ -1,9 +1,10 @@
 #!/usr/bin/env node
+0 > 1 // see https://github.com/babel/babel-eslint/issues/163
 /*
 <%- description %>
 
 Copyright 2016
-<%- name %> <mailto:<%= email %>>
+<%- name %> <<%= email %>>
 <<%= website %>>
 
 This program is free software: you can redistribute it and/or modify
