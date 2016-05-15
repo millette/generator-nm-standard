@@ -5,7 +5,6 @@ const _s = require('underscore.string')
 
 module.exports = yeoman.Base.extend({
   init () {
-    const cb = this.async()
     const self = this
 
     /* istanbul ignore next */
@@ -38,7 +37,7 @@ module.exports = yeoman.Base.extend({
       }
     ]
 
-    this.prompt(prompter, (props) => {
+    return this.prompt(prompter).then((props) => {
       const tpl = {
         moduleName: props.moduleName,
         camelModuleName: _s.camelize(props.moduleName),
@@ -68,8 +67,6 @@ module.exports = yeoman.Base.extend({
       mv('gitignore', '.gitignore')
       mv('travis.yml', '.travis.yml')
       mv('_package.json', 'package.json')
-
-      cb()
     })
   },
   git () {
