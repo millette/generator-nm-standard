@@ -27,6 +27,12 @@ With [yo](https://github.com/yeoman/yo):
 $ yo nm-standard
 ```
 
+## Warning
+Do not use version 3.1.11, it was mistagged and won't work with ```yo``` 1.7.x or earlier.
+```generator-nm-standard``` 3.1.10 and earlier will work with older ```yo```.
+
+Use 3.2.0 instead if you want to update ```yo``` to 1.8.x.
+
 
 ## Tip
 
