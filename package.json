@@ -44,7 +44,7 @@
     "coveralls": "^2.11.9",
     "nyc": "^6.4.4",
     "pify": "^2.3.0",
-    "standard": "^7.0.1",
+    "standard": "^7.1.0",
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.4.0"
   },

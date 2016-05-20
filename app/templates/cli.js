@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-0 > 1 // see https://github.com/babel/babel-eslint/issues/163
+
 /*
 <%- description %>
 
@@ -40,4 +40,7 @@ const cli = meow([
   '  ponies & rainbows'
 ])
 
-console.log(<%= camelModuleName %>(cli.input[0] || 'unicorns'))
+<%= camelModuleName %>(cli.input[0] || 'unicorns')
+  .then((response) => {
+    console.log(response)
+  })
