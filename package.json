@@ -34,17 +34,17 @@
     "init"
   ],
   "dependencies": {
-    "normalize-url": "^1.5.2",
+    "normalize-url": "^1.5.3",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^0.23.3"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
+    "ava": "^0.15.2",
     "babel-eslint": "^6.0.4",
     "coveralls": "^2.11.9",
     "nyc": "^6.4.4",
     "pify": "^2.3.0",
-    "standard": "^7.1.0",
+    "standard": "^7.1.2",
     "yeoman-assert": "^2.2.1",
     "yeoman-test": "^1.4.0"
   },
