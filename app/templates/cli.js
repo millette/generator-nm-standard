@@ -24,7 +24,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 'use strict'
 const meow = require('meow')
+const updateNotifier = require('update-notifier')
 const <%= camelModuleName %> = require('./')
+
+updateNotifier({ pkg: require('./package.json') }).notify()
 
 const cli = meow([
   'Usage',
