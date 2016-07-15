@@ -65,3 +65,5 @@ $ <%= moduleName %> --help
 
 ## License
 AGPL-v3 © [<%- name %>](<%= website %>)
+
+[update-notifier]: <https://github.com/yeoman/update-notifier>
