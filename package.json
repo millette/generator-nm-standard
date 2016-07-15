@@ -34,15 +34,15 @@
     "init"
   ],
   "dependencies": {
-    "normalize-url": "^1.5.3",
+    "normalize-url": "^1.6.0",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^0.23.4"
   },
   "devDependencies": {
     "ava": "^0.15.2",
-    "babel-eslint": "^6.1.0",
-    "coveralls": "^2.11.9",
-    "nyc": "^6.6.1",
+    "babel-eslint": "^6.1.2",
+    "coveralls": "^2.11.11",
+    "nyc": "^7.0.0",
     "pify": "^2.3.0",
     "standard": "^7.1.2",
     "yeoman-assert": "^2.2.1",
