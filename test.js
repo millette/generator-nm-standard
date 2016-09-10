@@ -1,4 +1,3 @@
-/*eslint arrow-parens: [2, "as-needed"]*/
 'use strict'
 
 import path from 'path'
@@ -9,12 +8,12 @@ import pify from 'pify'
 
 let generator
 
-test.beforeEach(async () => { // eslint-disable-line arrow-parens
+test.beforeEach(async () => {
   await pify(helpers.testDirectory)(path.join(__dirname, 'temp'))
   generator = helpers.createGenerator('nm-standard:app', ['../app'], null, {skipInstall: true})
 })
 
-test.serial('generates expected files', async () => { // eslint-disable-line arrow-parens
+test.serial('generates expected files', async () => {
   helpers.mockPrompt(generator, {
     moduleName: 'test',
     githubUsername: 'test',
@@ -41,7 +40,7 @@ test.serial('generates expected files', async () => { // eslint-disable-line arr
   assert.noFile('cli.js')
 })
 
-test.serial('CLI option', async () => { // eslint-disable-line arrow-parens
+test.serial('CLI option', async () => {
   helpers.mockPrompt(generator, {
     moduleName: 'test',
     githubUsername: 'test',
