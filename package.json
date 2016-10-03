@@ -1,6 +1,6 @@
 {
   "name": "generator-nm-standard",
-  "version": "3.4.3",
+  "version": "3.4.4",
   "description": "Scaffold out a node module, with standard code style",
   "license": "MIT",
   "repository": "https://github.com/millette/generator-nm-standard.git",
