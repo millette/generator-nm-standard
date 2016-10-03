@@ -40,13 +40,13 @@
   },
   "devDependencies": {
     "ava": "^0.16.0",
-    "babel-eslint": "^6.1.2",
-    "coveralls": "^2.11.12",
-    "nyc": "^8.1.0",
+    "babel-eslint": "^7.0.0",
+    "coveralls": "^2.11.14",
+    "nyc": "^8.3.0",
     "pify": "^2.3.0",
-    "standard": "^8.0.0",
+    "standard": "^8.3.0",
     "yeoman-assert": "^2.2.1",
-    "yeoman-test": "^1.5.0"
+    "yeoman-test": "^1.5.1"
   },
   "standard": {
     "parser": "babel-eslint",
