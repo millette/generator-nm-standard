@@ -3,9 +3,6 @@ const normalizeUrl = require('normalize-url')
 const yeoman = require('yeoman-generator')
 const _s = require('underscore.string')
 
-console.log('yeoman keys:', Object.keys(yeoman))
-
-// module.exports = yeoman.Base.extend({
 module.exports = yeoman.extend({
   init () {
     const self = this
