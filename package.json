@@ -35,7 +35,6 @@
   ],
   "dependencies": {
     "normalize-url": "^1.8.0",
-    "pify": "^2.3.0",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^1.0.0"
   },
@@ -44,6 +43,7 @@
     "babel-eslint": "^7.1.1",
     "coveralls": "^2.11.15",
     "nyc": "^10.0.0",
+    "pify": "^2.3.0",
     "standard": "^8.6.0",
     "yeoman-assert": "^2.2.2",
     "yeoman-test": "^1.6.0"
