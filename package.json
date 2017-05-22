@@ -34,7 +34,7 @@
     "init"
   ],
   "dependencies": {
-    "normalize-url": "^1.9.0",
+    "normalize-url": "^1.9.1",
     "underscore.string": "^3.3.4",
     "yeoman-generator": "^1.1.1"
   },
